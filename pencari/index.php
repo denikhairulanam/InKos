@@ -168,7 +168,7 @@ $rekomendasi_kos = $result_rekomendasi->fetch_all(MYSQLI_ASSOC);
 <body>
     <?php
     // Include header yang sudah diperbaiki
-    include '../includes/pencari_header.php';
+    include '../includes/header/pencari_header.php';
     ?>
 
     <div class="container mt-4">
@@ -418,7 +418,9 @@ $rekomendasi_kos = $result_rekomendasi->fetch_all(MYSQLI_ASSOC);
             </div>
         </div>
     </div>
-
+    <?php 
+    include '../includes/footer/footer.php';
+    ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

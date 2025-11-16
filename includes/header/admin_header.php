@@ -67,7 +67,7 @@ $role_user = $_SESSION['role'] ?? 'admin';
                 INKOS
             </a>
 
-            
+
 
             <!-- Mobile Toggle -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#adminNavbar">
@@ -78,32 +78,40 @@ $role_user = $_SESSION['role'] ?? 'admin';
             <div class="collapse navbar-collapse" id="adminNavbar">
                 <!-- Main Menu -->
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link <?= ($current_page == 'index.php') ? 'active' : '' ?>"
-                            href="index.php">
-                            <i class="fas fa-tachometer-alt me-1"></i>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link <?= ($current_page == 'index.php') ? 'active' : '' ?>" href="index.php">
+                            <i class="fas fa-tachometer-alt me-2"></i>
                             Dashboard
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= ($current_page == 'users.php') ? 'active' : '' ?>"
-                            href="users.php">
-                            <i class="fas fa-users me-1"></i>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link <?= ($current_page == 'users.php') ? 'active' : '' ?>" href="users.php">
+                            <i class="fas fa-users me-2"></i>
                             User
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= ($current_page == 'kos.php') ? 'active' : '' ?>"
-                            href="kos.php">
-                            <i class="fas fa-building me-1"></i>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link <?= ($current_page == 'kos.php') ? 'active' : '' ?>" href="kos.php">
+                            <i class="fas fa-building me-2"></i>
                             Kos
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= ($current_page == 'daerah.php') ? 'active' : '' ?>"
-                            href="daerah.php">
-                            <i class="fas fa-map-marker-alt me-1"></i>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link <?= ($current_page == 'daerah.php') ? 'active' : '' ?>" href="daerah.php">
+                            <i class="fas fa-map-marker-alt me-2"></i>
                             Daerah
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link <?= ($current_page == 'kelola_pembayaran.php') ? 'active' : '' ?>" href="kelola_pembayaran.php">
+                            <i class="fas fa-credit-card me-2"></i>
+                            Kelola Pembayaran
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link <?= ($current_page == 'pemesanan.php') ? 'active' : '' ?>" href="pemesanan.php">
+                            <i class="fas fa-shopping-cart me-2"></i>
+                            Pemesanan
                         </a>
                     </li>
                 </ul>

@@ -189,7 +189,7 @@ if (isset($_SESSION['success'])) {
 </head>
 
 <body>
-    <?php include '../includes/pencari_header.php'; ?>
+    <?php include '../includes/header/header.php'; ?>
 
     <div class="container py-4">
         <div class="row justify-content-center">

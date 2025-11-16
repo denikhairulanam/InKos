@@ -21,21 +21,17 @@ class Database
         return $this->conn;
     }
 }
-
 // Create MySQLi connection
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "inkos";
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
 // Jika ingin tetap menggunakan PDO jug
 $database = new Database();
 $db = $database->getConnection();

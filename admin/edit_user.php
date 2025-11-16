@@ -8,7 +8,7 @@ if (getUserRole() !== 'admin') {
 }
 
 $page_title = "Edit User - INKOS";
-include '../includes/header.php';
+include '../includes/header/header.php';
 
 include '../config.php';
 $database = new Database();
@@ -269,4 +269,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     });
 </script>
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../includes/footer/footer.php'; ?>

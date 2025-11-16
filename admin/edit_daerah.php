@@ -1,74 +1,6 @@
 <?php
 include '../includes/auth.php';
-checkAuth();
-
-if (getUserRole() !== 'admin') {
-    header('Location: ../login.php');
-    exit();
-}
-
-$page_title = "Edit Daerah - INKOS";
-include '../includes/header.php';
-
-include '../config.php';
-$database = new Database();
-$db = $database->getConnection();
-
-// Get daerah data
-$id = $_GET['id'] ?? null;
-if (!$id) {
-    header('Location: daerah.php');
-    exit();
-}
-
-try {
-    $query = "SELECT * FROM daerah WHERE id = :id";
-    $stmt = $db->prepare($query);
-    $stmt->bindParam(':id', $id);
-    $stmt->execute();
-    $daerah = $stmt->fetch(PDO::FETCH_ASSOC);
-
-    if (!$daerah) {
-        $_SESSION['error_message'] = "Daerah tidak ditemukan";
-        header('Location: daerah.php');
-        exit();
-    }
-} catch (PDOException $e) {
-    $_SESSION['error_message'] = "Error: " . $e->getMessage();
-    header('Location: daerah.php');
-    exit();
-}
-
-// Handle form submission
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $nama = $_POST['nama'];
-    $kota = $_POST['kota'];
-
-    // Handle empty latitude/longitude - convert to NULL
-    $latitude = !empty($_POST['latitude']) ? $_POST['latitude'] : null;
-    $longitude = !empty($_POST['longitude']) ? $_POST['longitude'] : null;
-
-    try {
-        $query = "UPDATE daerah SET nama = :nama, kota = :kota, latitude = :latitude, longitude = :longitude 
-                  WHERE id = :id";
-        $stmt = $db->prepare($query);
-        $stmt->bindParam(':nama', $nama);
-        $stmt->bindParam(':kota', $kota);
-        $stmt->bindParam(':latitude', $latitude);
-        $stmt->bindParam(':longitude', $longitude);
-        $stmt->bindParam(':id', $id);
-
-        if ($stmt->execute()) {
-            $_SESSION['success_message'] = "Daerah berhasil diperbarui";
-            header('Location: daerah.php');
-            exit();
-        } else {
-            $error_message = "Gagal memperbarui daerah";
-        }
-    } catch (PDOException $e) {
-        $error_message = "Error: " . $e->getMessage();
-    }
-}
+include '../controler/admin/edit_daerah.php';
 ?>
 <!-- Main Content -->
 <div class="container-fluid px-4 py-4">
@@ -151,39 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <script>
-    // Client-side validation untuk koordinat
-    document.getElementById('daerahForm').addEventListener('submit', function(e) {
-        const latitude = document.getElementById('latitude').value;
-        const longitude = document.getElementById('longitude').value;
-
-        // Validasi format latitude
-        if (latitude && !isValidCoordinate(latitude, true)) {
-            e.preventDefault();
-            alert('Format latitude tidak valid. Contoh: -1.610000');
-            document.getElementById('latitude').focus();
-            return;
-        }
-
-        // Validasi format longitude
-        if (longitude && !isValidCoordinate(longitude, false)) {
-            e.preventDefault();
-            alert('Format longitude tidak valid. Contoh: 103.610000');
-            document.getElementById('longitude').focus();
-            return;
-        }
-    });
-
-    function isValidCoordinate(coord, isLatitude) {
-        const pattern = /^-?\d+(\.\d+)?$/;
-        if (!pattern.test(coord)) return false;
-
-        const num = parseFloat(coord);
-        if (isLatitude) {
-            return num >= -90 && num <= 90;
-        } else {
-            return num >= -180 && num <= 180;
-        }
-    }
+    <?php include '../JavaScript/admin/edit_daerah.js'; ?>
 </script>
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../includes/footer/footer.php'; ?>

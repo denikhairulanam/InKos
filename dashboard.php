@@ -14,6 +14,6 @@ switch ($role) {
         header('Location: pencari/index.php');
         break;
     default:
-        header('Location: index.php');
+        header('Location:index.php');
 }
 exit();
