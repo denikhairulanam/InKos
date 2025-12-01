@@ -1,0 +1,32 @@
+.required-label::after {
+  content: " *";
+  color: red;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.form-check-label {
+  font-weight: normal;
+}
+
+.preview-image {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.kota-group {
+  font-weight: bold;
+  color: #0d6efd;
+  background-color: #e9ecef;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.currency-input {
+  text-align: right;
+}
