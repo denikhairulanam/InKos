@@ -40,6 +40,7 @@ Berikut versi ringkasnya:
 
 ---
 
-![Home Page]([https://github.com/denikhairulanam/InKos/blob/main/FotoDemo/Screenshot%202025-12-01%20205554.png]?raw=true)
-![alt text]([https://github.com/denikhairulanam/InKos/blob/main/FotoDemo/Screenshot%202025-12-01%20205813.png]?raw=true)
+![Home Page](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/Screenshot%202025-12-01%20205554.png)
+![Demo](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/Screenshot%202025-12-01%20205813.png)
+
 
