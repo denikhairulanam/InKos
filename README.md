@@ -40,6 +40,6 @@ Berikut versi ringkasnya:
 
 ---
 
-![alt text](https://github.com/denikhairulanam/Input_Nilai_Siswa/blob/main/foto/WhatsApp%20Image%202025-07-09%20at%2018.04.25_8d2b0584.jpg?raw=true)
+![alt text]((https://github.com/denikhairulanam/InKos/blob/main/FotoDemo/Screenshot%202025-12-01%20205554.png)?raw=true)
 ![alt text](https://github.com/denikhairulanam/Input_Nilai_Siswa/blob/main/foto/WhatsApp%20Image%202025-07-09%20at%2018.04.25_8d2b0584.jpg?raw=true)
 
