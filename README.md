@@ -41,4 +41,5 @@ Berikut versi ringkasnya:
 ---
 
 ![alt text](https://github.com/denikhairulanam/Input_Nilai_Siswa/blob/main/foto/WhatsApp%20Image%202025-07-09%20at%2018.04.25_8d2b0584.jpg?raw=true)
-![Dashboard Admin]([https://github.com/denikhairulanam/Input_Nilai_Siswa/blob/main/foto/WhatsApp%20Image%202025-07-09%20at%2018.04.58_59400ca1.jpg?raw=true](https://github.com/denikhairulanam/InKos/blob/main/FotoDemo/Screenshot%202025-12-01%20205813.png))
+![alt text](https://github.com/denikhairulanam/Input_Nilai_Siswa/blob/main/foto/WhatsApp%20Image%202025-07-09%20at%2018.04.25_8d2b0584.jpg?raw=true)
+
