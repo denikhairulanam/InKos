@@ -1,4 +1,4 @@
-# Final Project RPL – Sistem [Nama Sistem]
+# Final Project RPL – Sistem InKos
 
 ## Identitas Kelompok
 - **Nama Kelompok :** Kelompok 10
