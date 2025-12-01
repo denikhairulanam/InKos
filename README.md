@@ -40,7 +40,10 @@ Berikut versi ringkasnya:
 
 ---
 
-![Home Page](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/Screenshot%202025-12-01%20205554.png)
-![Demo](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/Screenshot%202025-12-01%20205813.png)
+## 🏠 Home Page
+![Home Page Preview](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/home-page-inkos-demo.png)
+
+## 🛠️ Admin Dashboard
+![Admin Dashboard Preview](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/admin-dashboard-inkos-demo.png)
 
 
