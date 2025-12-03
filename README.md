@@ -35,7 +35,7 @@ Link PDF:
 ---
 
 # 🏗 2. Arsitektur Singkat Sistem
-Diagram arsitektur lengkap tersedia pada dokumen.  
+Diagram arsitektur lengkap tersedia pada dokumen yang kami buat.  
 Berikut versi ringkasnya:
 
 ---
