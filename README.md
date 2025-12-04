@@ -174,7 +174,7 @@ Akses untuk mencari dan memesan kost
 
 ## 📄 Dokumentasi Lengkap
 
-- 📖 [SRS (Software Requirement Specification)](https://github.com/denikhairulanam/InKos/blob/main/documen/DokumenSRS_Kelompok10%5B1%5D%5B1%5D%5B1%5D%5B1%5D%5B2%5D.docx)
+- 📖 [SRS (Software Requirement Specification)](https://github.com/denikhairulanam/InKos/blob/main/documen/DokumenSRS_Kelompok10%5B1%5D%5B1%5D%5B1%5D%5B1%5D%5B2%5D.pdf)
 - 🎨 [UI/UX Design Prototype](https://github.com/denikhairulanam/InKos/blob/main/documen/InKos%20(2).png)
 - 🎬 [Demo Video (YouTube)](https://youtu.be/NWGybUuSts8?feature=shared)
 ---
