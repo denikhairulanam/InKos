@@ -180,6 +180,19 @@ Akses untuk mencari dan memesan kost
 
 ---
 
+
+## 📚 Keterangan Tugas
+
+Project ini dibuat untuk memenuhi **Tugas Final Project** Mata Kuliah Rekayasa Perangkat Lunak
+
+### Dosen Pengampu
+- **Nama:** Dila Nurlaila, M.Kom.
+- **Mata Kuliah:** Rekayasa Perangkat Lunak
+- **Program Studi:** Sistem Informasi
+- **Universitas:** UIN STS Jambi
+
+---
+
 <div align="center">
 
 ### © 2025 InKos - Kelompok 10 RPL
