@@ -1,11 +1,11 @@
 # Final Project RPL – Sistem InKos
-<p align="center">
-  <img alt="WeddingLink" src="https://img.shields.io/badge/WeddingLink-Platform%20Pernikahan-blue" />
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-8.2%2B-777BB4" />
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-Database-4479A1" />
-  <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-5.3-7952B3" />
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-green" />
+<p align="center"> 
+  <img src="https://img.shields.io/badge/InKos-Platform%20Pencarian%20Kos-blue?style=for-the-badge&logo=homeassistantcommunity" /> 
+  <img src="https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge&logo=php" /> 
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql" /> 
+  <img src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap" /> 
 </p>
+
 ## Identitas Kelompok
 - **Nama Kelompok :** Kelompok 10
 - **Anggota & Jobdesk :**
