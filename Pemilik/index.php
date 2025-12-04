@@ -139,7 +139,6 @@ include '../controler/pemilik/index.php';
                                         <th>Status Pemesanan</th>
                                         <th>Status Pembayaran</th>
                                         <th>Tanggal Pemesanan</th>
-                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -231,16 +230,6 @@ include '../controler/pemilik/index.php';
                                             </td>
                                             <td>
                                                 <small class="text-muted"><?php echo date('d M Y H:i', strtotime($pemesanan['tanggal_pemesanan'])); ?></small>
-                                            </td>
-                                            <td>
-                                                <?php if ($pemesanan['status'] == 'menunggu'): ?>
-                                                    <a href="konfirmasi_pemesanan.php?id=<?php echo $pemesanan['id']; ?>&action=confirm" class="btn btn-sm btn-outline-success" title="Konfirmasi">
-                                                        <i class="fas fa-check"></i>
-                                                    </a>
-                                                    <a href="konfirmasi_pemesanan.php?id=<?php echo $pemesanan['id']; ?>&action=reject" class="btn btn-sm btn-outline-danger" title="Tolak">
-                                                        <i class="fas fa-times"></i>
-                                                    </a>
-                                                <?php endif; ?>
                                             </td>
                                         </tr>
                                     <?php endforeach; ?>

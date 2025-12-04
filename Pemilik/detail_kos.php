@@ -76,9 +76,7 @@ include '../controler/pemilik/detail_kos.php';
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h5 class="card-title mb-0">Foto Kos</h5>
-                        <a href="edit_kos.php?id=<?php echo $id; ?>" class="btn btn-outline-primary btn-sm">
-                            <i class="fas fa-camera me-1"></i>Kelola Foto
-                        </a>
+                      
                     </div>
                     <?php if ($kos['foto_utama'] || !empty($foto_lainnya)): ?>
                         <div class="row g-3">
@@ -218,19 +216,6 @@ include '../controler/pemilik/detail_kos.php';
                     <?php endif; ?>
                 </div>
             </div>
-
-            <!-- Quick Actions -->
-            <div class="card border-0 shadow mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Bagikan</h5>
-                    <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#shareModal">
-                            <i class="fas fa-share-alt me-2"></i>Bagikan Kos
-                        </button>
-                    </div>
-                </div>
-            </div>
-
             <!-- Meta Info -->
             <div class="card border-0 shadow">
                 <div class="card-body">

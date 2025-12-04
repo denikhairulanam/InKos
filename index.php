@@ -282,7 +282,7 @@ include 'controler/home.php';
         </section>
     <?php endif; ?>
 
-    <?php include 'includes/footer/footer.php' ?>
+    <?php include 'includes/footer/footer_guest.php' ?>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

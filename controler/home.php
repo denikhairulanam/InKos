@@ -95,23 +95,6 @@ class HomePage
             return false;
         }
     }
-
-    // Method untuk mendapatkan semua kos (untuk statistik)
-    public function getAllKosCount()
-    {
-        $query = "SELECT COUNT(*) as total FROM kos WHERE status = 'tersedia'";
-
-        try {
-            $stmt = $this->conn->prepare($query);
-            $stmt->execute();
-            $result = $stmt->fetch(PDO::FETCH_ASSOC);
-            return $result ? $result['total'] : 0;
-        } catch (PDOException $e) {
-            error_log("Error getAllKosCount: " . $e->getMessage());
-            return 0;
-        }
-    }
-
     // Method untuk mendapatkan daerah populer
     public function getPopularDistricts()
     {
@@ -146,22 +129,6 @@ class HomePage
             return false;
         }
     }
-
-    // Method untuk mendapatkan jumlah user terdaftar
-    public function getUserCount()
-    {
-        try {
-            $query = "SELECT COUNT(*) as total FROM users";
-            $stmt = $this->conn->prepare($query);
-            $stmt->execute();
-            $result = $stmt->fetch(PDO::FETCH_ASSOC);
-            return $result ? $result['total'] : 1000;
-        } catch (PDOException $e) {
-            error_log("Error getUserCount: " . $e->getMessage());
-            return 1000;
-        }
-    }
-
     // Method untuk mendapatkan jumlah daerah
     public function getDistrictCount()
     {
@@ -231,11 +198,3 @@ $stmt_all = $homePage->getAllDistricts();
 if ($stmt_all) {
     $allDistricts = $stmt_all->fetchAll(PDO::FETCH_ASSOC);
 }
-
-// Ambil data statistik
-$totalKos = $homePage->getAllKosCount();
-$totalDistricts = $homePage->getDistrictCount();
-$totalUsers = $homePage->getUserCount();
-
-$isLoggedIn = isset($_SESSION['user_id']);
-?>
