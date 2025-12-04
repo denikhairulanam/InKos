@@ -18,7 +18,7 @@
 **Kelompok 10 - Program RPL**
 | Nama Anggota          | Tugas / Jobdesk                                                                                                                                |
 | :-------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Deni Khairul Anam** | • Membangun halaman web untuk Bab 4<br>• Melakukan push ke GitHub, membuat repository, dan mengatur peran maintainer<br>• Membuat desain antarmuka (UI Design) |
+| **Deni Khairul Anam** | • Membangun web <br>•Membuat Bab 4<br>• Melakukan push ke GitHub, membuat repository, dan mengatur peran maintainer<br>• Membuat desain antarmuka (UI Design) |
 | **Aldi Darmawan**     | • Menyusun dokumen SRS Bab 1, 2, 3, dan 5<br>• Membuat Activity Diagram dan Sequence Diagram<br>• Membuat slide presentasi (PPT)<br>• Melakukan hosting aplikasi |
 | **Surah Annisa**      | • Menyusun berkas README pada repository<br>• Mendemokan video terkait proyek<br>• Melakukan revisi pada dokumen SRS |
 
