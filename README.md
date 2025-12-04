@@ -177,7 +177,7 @@ Akses untuk mencari dan memesan kost
 - 📖 [SRS (Software Requirement Specification)](https://github.com/denikhairulanam/InKos)
 - 🎨 [UI/UX Design Prototype](https://github.com/denikhairulanam/InKos)
 - 📊 [Database Schema](https://github.com/denikhairulanam/InKos)
-
+- 🎬 [Demo Video (YouTube)](https://youtu.be/NWGybUuSts8?feature=shared)
 ---
 
 
