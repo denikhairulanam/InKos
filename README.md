@@ -70,9 +70,9 @@ Menyediakan sistem berbasis web yang mempermudah:
 
 ### Frontend
 
-- **Bootstrap 5.3** — Framework CSS responsive
-- **Custom CSS** — Styling & customization
-- **JavaScript** — Interaktivitas & validasi client-side
+- **Bootstrap 5.3**
+- **Custom CSS** 
+- **JavaScript** 
 
 ### Tools & Deployment
 
