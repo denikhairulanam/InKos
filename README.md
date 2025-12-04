@@ -16,12 +16,12 @@
 ## 👥 Identitas Kelompok
 
 **Kelompok 10 - Program RPL**
-
 | Nama Anggota          | Tugas / Jobdesk                                                                                                                                |
 | :-------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Aldi Darmawan**     | • Dokumen SRS (Activity Diagram, Sequence Diagram)<br>• Presentasi PowerPoint<br>• Hosting & Deployment<br>• Bug fixing menu dashboard pemilik |
-| **Surah Annisa**      | • Membuat README<br>• Demonstrasi Web<br>• Review & Revisi Dokumen SRS                                                                         |
-| **Deni Khairul Anam** | • Development Web (Full Stack)<br>• Dokumentasi (BAB 4)<br>• Repository & Maintenance<br>• UI/UX Design                                        |
+| **Deni Khairul Anam** | • Membangun halaman web untuk Bab 4<br>• Melakukan push ke GitHub, membuat repository, dan mengatur peran maintainer<br>• Membuat desain antarmuka (UI Design) |
+| **Aldi Darmawan**     | • Menyusun dokumen SRS Bab 1, 2, 3, dan 5<br>• Membuat Activity Diagram dan Sequence Diagram<br>• Membuat slide presentasi (PPT)<br>• Melakukan hosting aplikasi |
+| **Surah Annisa**      | • Menyusun berkas README pada repository<br>• Mendemokan video terkait proyek<br>• Melakukan revisi pada dokumen SRS |
+
 
 ---
 
@@ -176,7 +176,6 @@ Akses untuk mencari dan memesan kost
 
 - 📖 [SRS (Software Requirement Specification)](https://github.com/denikhairulanam/InKos)
 - 🎨 [UI/UX Design Prototype](https://github.com/denikhairulanam/InKos)
-- 📊 [Database Schema](https://github.com/denikhairulanam/InKos)
 - 🎬 [Demo Video (YouTube)](https://youtu.be/NWGybUuSts8?feature=shared)
 ---
 
