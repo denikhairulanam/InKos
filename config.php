@@ -2,9 +2,9 @@
 // config.php
 class Database
 {
-    private $host = "localhost";
-    private $db_name = "inkos";
-    private $username = "root";
+    private $host = "sql100.infinityfree.com";
+    private $db_name = "if0_40553110_inkos";
+    private $username = "if0_40553110";
     private $password = "";
     public $conn;
 
