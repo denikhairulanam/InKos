@@ -105,18 +105,7 @@ cd InKos
    - Klik tab "Import"
    - Pilih file `inkos.sql` → Klik "Go"
 
-### Langkah 3: Konfigurasi Koneksi Database
-
-Buka file `config.php` dan sesuaikan konfigurasi:
-
-```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'inkos');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-```
-
-### Langkah 4: Jalankan Aplikasi
+### Langkah 3: Jalankan Aplikasi
 
 1. Pindahkan folder ke direktori web server (htdocs untuk XAMPP)
 2. Akses via browser: `http://localhost/InKos`
