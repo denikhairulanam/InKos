@@ -104,7 +104,7 @@ include '../controler/pencari/pemesanan.php';
                     <i class="fas fa-inbox fa-3x text-muted mb-3"></i>
                     <h5 class="text-muted">Belum Ada Pemesanan</h5>
                     <p class="text-muted mb-3">Mulai jelajahi dan temukan kos impian Anda</p>
-                    <a href="cari_kos.php" class="btn btn-primary">
+                    <a href="../index.php" class="btn btn-primary">
                         <i class="fas fa-search me-2"></i>Cari Kos Sekarang
                     </a>
                 </div>
