@@ -1,14 +1,3 @@
-
-CREATE TABLE `balasan_laporan` (
-  `id` int NOT NULL,
-  `laporan_id` int NOT NULL,
-  `pengirim_id` int NOT NULL,
-  `pengirim_tipe` enum('user','admin') NOT NULL,
-  `pesan` text NOT NULL,
-  `dibaca` tinyint(1) DEFAULT '0',
-  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
 -- --------------------------------------------------------
 
 --
@@ -24,9 +13,7 @@ CREATE TABLE `daerah` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Dumping data for table `daerah`
---
+
 
 -- --------------------------------------------------------
 
@@ -59,23 +46,6 @@ CREATE TABLE `kos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
---
--- Table structure for table `laporan`
---
-
-CREATE TABLE `laporan` (
-  `id` int NOT NULL,
-  `user_id` int NOT NULL,
-  `admin_id` int DEFAULT NULL,
-  `judul` varchar(255) NOT NULL,
-  `pesan` text NOT NULL,
-  `tipe` enum('laporan','pertanyaan','keluhan','lainnya') DEFAULT 'laporan',
-  `status` enum('baru','dibalas','selesai') DEFAULT 'baru',
-  `dibaca_user` tinyint(1) DEFAULT '0',
-  `dibaca_admin` tinyint(1) DEFAULT '0',
-  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
@@ -153,13 +123,7 @@ CREATE TABLE `users` (
 -- Indexes for dumped tables
 --
 
---
--- Indexes for table `balasan_laporan`
---
-ALTER TABLE `balasan_laporan`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `laporan_id` (`laporan_id`),
-  ADD KEY `pengirim_id` (`pengirim_id`);
+
 
 --
 -- Indexes for table `daerah`
@@ -175,13 +139,7 @@ ALTER TABLE `kos`
   ADD KEY `daerah_id` (`daerah_id`),
   ADD KEY `user_id` (`user_id`);
 
---
--- Indexes for table `laporan`
---
-ALTER TABLE `laporan`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `user_id` (`user_id`),
-  ADD KEY `admin_id` (`admin_id`);
+
 
 --
 -- Indexes for table `pembayaran`
